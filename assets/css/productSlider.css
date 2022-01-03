@@ -1,0 +1,195 @@
+@import url(http://fonts.googleapis.com/css?family=Anaheim);
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.productSlider {
+    min-height: 100%;
+}
+
+.productSlider {
+    background-color: #fff;
+}
+
+.productSlider .container {
+    margin: 4% auto;
+    width: 210px;
+    height: 140px;
+    position: relative;
+    perspective: 1000px;
+}
+
+.productSlider #carousel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotation 20s infinite linear;
+}
+
+.productSlider #carousel:hover {
+    animation-play-state: paused;
+}
+
+.productSlider #carousel figure {
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 50%px;
+    left: 10px;
+    top: 10px;
+    background: black;
+    overflow: hidden;
+    border: solid 3px black;
+}
+
+.productSlider #carousel figure:nth-child(1) {
+    transform: rotateY(0deg) translateZ(288px)
+}
+
+.productSlider #carousel figure:nth-child(2) {
+    transform: rotateY(40deg) translateZ(288px)
+}
+
+.productSlider #carousel figure:nth-child(3) {
+    transform: rotateY(80deg) translateZ(288px)
+}
+
+.productSlider #carousel figure:nth-child(4) {
+    transform: rotateY(120deg) translateZ(288px)
+}
+
+.productSlider #carousel figure:nth-child(5) {
+    transform: rotateY(160deg) translateZ(288px)
+}
+
+.productSlider #carousel figure:nth-child(6) {
+    transform: rotateY(200deg) translateZ(288px)
+}
+
+.productSlider #carousel figure:nth-child(7) {
+    transform: rotateY(240deg) translateZ(288px)
+}
+
+.productSlider #carousel figure:nth-child(8) {
+    transform: rotateY(280deg) translateZ(288px)
+}
+
+.productSlider #carousel figure:nth-child(9) {
+    transform: rotateY(320deg) translateZ(288px)
+}
+
+.productSlider  #carousel figure img {
+    height: 110px;
+}
+
+.productSlider img:hover {
+    -webkit-filter: grayscale(0);
+    transform: scale(1.2, 1.2);
+}
+
+@keyframes rotation {
+    from {
+        transform: rotateY(0deg)
+    }
+
+    to {
+        transform: rotateY(360deg)
+    }
+}
+
+/*Product Blog Section*/
+.product-post-container {
+  position: relative;
+  width: 50%;
+}
+
+.productBlog .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.productBlog .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.productBlog .product-post-container:hover .overlay {
+  height: 25%;
+}
+
+.productBlog .text {
+  color: white;
+  width: 100%;
+  height: auto;
+  font-size: small;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/*Hover Effect*/
+.product-post-container {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 150px;
+}
+
+
+.product-post-container img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.product-post-container:hover img {
+    transform: scale(1.10);
+}
+
+
+/*Product Blog*/
+.productsCategory h2 {
+   background: #0c2e8a;
+   color: #fff;
+   font-size: 32px;
+   text-transform: uppercase;
+   font-weight: 700;
+   text-align: center;
+}
+
+
+.doubleCard {
+  padding: 40px;
+}
+
+.productsBox {
+  margin-bottom: 40px;
+  padding: 0px;
+}
