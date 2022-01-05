@@ -380,6 +380,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #50d8af;
   text-decoration: underline;
 }
+
+
 @media (max-width: 767px) {
   #hero .hero-content h2 {
     font-size: 34px;
