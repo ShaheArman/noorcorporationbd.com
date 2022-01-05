@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 34px;
   }
   #header #logo img {
-    max-height: 40px;
+    max-height: 127px;
   }
 }
 
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #0c2e8a;
+  color: #fff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -309,9 +309,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 20px;
   font-size: 15px;
   color: #0c2e8a;
+  justify-content: center;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #50d8af;
+  color: #fff;
+  background: #234295;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
