@@ -386,6 +386,9 @@ h1, h2, h3, h4, h5, h6 {
   #hero .hero-content h2 {
     font-size: 34px;
   }
+  *{
+    text-align: center;
+  }
 }
 #hero .hero-content .btn-get-started, #hero .hero-content .btn-projects {
   font-family: "Raleway", sans-serif;
