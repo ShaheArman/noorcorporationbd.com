@@ -114,17 +114,17 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo .logo {
     position: absolute;
     z-index: 1000;
-    width: 113px;
+    width: 115px;
     height: auto;
     margin-left: -159px;
-    margin-top: 18px;
+    margin-top: 55px;
 }
 
 #header #logo .bg-logo {
     width: 201px;
     height: auto;
     /* display: inline; */
-    margin-top: 36px;
+    margin-top: 66px;
     margin-left: -2px;
 }
 
