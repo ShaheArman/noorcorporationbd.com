@@ -157,6 +157,7 @@
     margin: auto;
     overflow: hidden;
     width: 150px;
+    padding-bottom: 6px;
 }
 
 
@@ -188,6 +189,7 @@
 .doubleCard {
   padding: 40px;
 }
+
 
 .productsBox {
   margin-bottom: 40px;

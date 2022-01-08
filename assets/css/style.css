@@ -8,9 +8,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.row {
-  margin-left: 0px!important;
-}
 
 a {
   color: #50d8af;
@@ -113,7 +110,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header #logo .logo {
     position: absolute;
-    z-index: 1000;
     width: 115px;
     height: auto;
     margin-left: -159px;
@@ -145,8 +141,8 @@ h1, h2, h3, h4, h5, h6 {
   #header {
     height: 60px;
   }
-  #header #logo h1 {
-    font-size: 34px;
+  #header #logo {
+    z-index: 9;
   }
   #header #logo img {
     max-height: 127px;
@@ -252,6 +248,26 @@ h1, h2, h3, h4, h5, h6 {
     left: -100%;
   }
 }
+
+/*Products Anchor*/
+@media (min-width: 1400px) { 
+  .productsAnchor {
+    display: none;
+  }
+}
+@media (min-width: 1200px) { 
+  .productsAnchor {
+    display: none;
+  }
+ }
+@media (min-width: 992px) { 
+  .productsAnchor {
+    display: none;
+  }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
 
 /**
 * Mobile Navigation 
@@ -472,6 +488,13 @@ section {
   bottom: 0;
   left: 0;
 }*/
+@media (max-width: 768px)
+{
+    .section-header h2{
+      padding: 20px 0px 0px 0px;
+    } 
+}
+
 .section-header p {
   padding: 0;
   margin: 0;
